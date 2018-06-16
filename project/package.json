@@ -2,7 +2,7 @@
   "name": "project",
   "version": "1.0.0",
   "description": "Это сборка для быстрого старта проекта с Gulp, Sass",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +13,7 @@
   "author": "Artem Kopytok",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.24.4",
     "gulp": "^3.9.1",
     "gulp-sass": "^4.0.1"
   }
